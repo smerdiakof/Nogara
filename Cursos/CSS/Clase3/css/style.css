@@ -1,0 +1,56 @@
+*{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+h1{
+    font-size: 3rem;
+    border: 10px inset rgb(124, 104, 143);
+    margin top: 10px 40px 50px 60px;
+    padding: 30px
+    
+    
+}
+
+p{
+    font-size: 1rem;
+    border: 15px none brown;
+}
+
+h2{
+    font-size: 2.5rem;
+    width: 50%;
+    background-color: cornflowerblue;
+    border: 15px groove rgb(106, 42, 165);
+}
+
+h3{
+    font-size: 2rem;
+    width: 33.3%;
+    background-color: cornflowerblue;
+    border: 10px solid brown;
+}
+
+div{
+    font-size: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-color: crimson;
+}
+
+div h2{
+    background-color: blueviolet;
+    font-size: 2.5em;
+}
+
+div h3{
+    background-color: blueviolet;
+    font-size: 2em;
+
+}
+
+img{
+    margin: 40px 60px 30px 15px;
+    border: inset brown;
+    border-radius: 50px;
+}
