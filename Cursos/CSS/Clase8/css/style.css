@@ -1,0 +1,114 @@
+:root{
+ --color-principal: red;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 1rem;
+    /* background-image: url(../guitarra.png); */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 2rem;
+    text-shadow: 0 0 5px white;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-principal);
+}
+
+a:hover{
+    background-color: ;
+}
+
+section:first-child{
+    background-color: rgb(236, 174, 16);
+}
+
+table{
+    margin: 1rem;
+}
+
+table, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n){
+    background-color: aqua;
+}
+ 
+/* p:first-child{
+    background-color: rgb(97, 236, 16);
+} */
+
+p:last-child{
+    background-color: blue;
+}
+
+/* section:last-child,
+section:last-of-type{
+    background-color: brown;
+} */
+
+section p:nth-child(3n + 0){
+    background-color: blueviolet;
+}
+
+span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+span::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../guitarra.png);
+    background-size: contain;
+}
+
+span::after{
+    content: "assda";
+}
+
+p::first-line{
+    background-color: blue;
+    color: #fff;
+}
+
+p::first-letter{
+    font-size: 4rem;
+    color: var(--color-principal);
+}
+
+ul{
+    margin-left: 2rem;
+}
+
+li::marker{
+color: brown;
+font-size: 4rem;
+
+}
+
+p::selection{
+    background-color: crimson;
+    color: azure;
+}
+
+
+span{
+    color:var(--color-principal);
+}

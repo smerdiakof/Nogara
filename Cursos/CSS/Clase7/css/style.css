@@ -1,0 +1,61 @@
+ul{
+    background-color: aqua;
+    list-style-type: gujarati;
+    list-style-position: outside;
+    list-style-image: url(guitarra.png);
+}
+
+li{
+    background-color: blueviolet;
+    
+}
+
+table, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 3rem;
+}
+
+td:hover{
+    cursor: pointer;
+    background-color: cyan;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:link{
+    color: darkgreen;
+}
+a:visited{
+    color: darkorange;
+}
+
+a:active{
+    background-color: black;
+}
+
+a:focus-visible{
+    background-color: tomato;
+}
+
+a:hover{
+    background-color: blueviolet;
+    /* padding: 1rem; */
+    color: chocolate;
+}
+
+ul{
+    background-color: blueviolet;
+}
+
+section ul{
+        background-color: aqua;
+}
+
+section{
+    background-color: blue;
+    padding: 1rem;
+}
