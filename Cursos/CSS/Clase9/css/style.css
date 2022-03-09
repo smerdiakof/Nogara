@@ -1,0 +1,24 @@
+*{
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+
+section{
+    background-color: blueviolet;
+    display: grid;
+    /* grid-template-columns: 100px 400px 500px; */
+    /* grid-template-columns: 20% 20% 20% 20%; */
+    /* grid-template-columns: repeat(5, 20%); */
+    grid-template-rows: repeat(4, 25%) / repeat(4, 25%);
+    grid-template-areas: none;
+    height: 100vh;
+}
+
+div{
+    background-color: coral;
+    width: 50%;
+    height: 100px;
+    border: 1px solid white;
+
+}
